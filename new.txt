@@ -1,0 +1,9 @@
+In Java, instanceof is a comparison operator is used to check whether an instance is of a specified type or not and returns boolean true or false. If we compare instance with a null type using the instaneof operator, it returns false.
+
+Here, we have Dog as a child class which extends the Animal class. The Dog class has a constructor which takes three string type variables name, color, and breed, respectively.
+
+We created an instance of the Dog class using the new keyword.
+
+An object of a subtype is also a type of parent class. If we check if the instance dog is of type Animal, then the instanceof operator returns true as Dog extends Animal class. Hence dog can be referred to as an instance of Dog or Animal class.
+
+If we compare the dog1 instance that is null as a type of Dog class, then instanceof returns false.
