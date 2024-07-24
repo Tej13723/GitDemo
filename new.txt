@@ -9,3 +9,4 @@ An object of a subtype is also a type of parent class. If we check if the instan
 If we compare the dog1 instance that is null as a type of Dog class, then instanceof returns false.
 
 uhuhuhuhuhuhuhuhuhuhuuhuhuhhuhuuhuhuhu
+blah blah blah blah
