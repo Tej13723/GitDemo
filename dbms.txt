@@ -1,0 +1,78 @@
+data - raw details that are unprocessed that is usually stored in a file.
+
+related data is called information.
+
+database- set of inter related data
+
+schema - 
+
+chars of a db - 
+
+1. controlling redundant/duplicate data
+2. sharing of data
+3. maintains integrity
+4. data independence
+5. support for transaction control and recovery
+6. availability of tools
+7. control over security
+8. hardware independence
+
+levels of abstraction -
+
+1. conceptual level - the overall integrated structural organization of the db
+2. physical level - info about how the db is actually stored in the disk.
+3. external level - the user view of the db
+
+--------------------------------------------------------
+Physical level - This is the lowest level of data abstraction. It tells us how the data is actually stored in memory.
+
+Conceptual level - This level comprises the information that is actually stored in the database in the form of tables. It also stores the relationship among the data entities in relatively simple structures.
+
+External level - This is the highest level of abstraction. Only a part of the actual database is viewed by the users. This level exists to ease the accessibility of the database by an individual user. Users view data in the form of rows and columns.
+
+self study topics to be checked out :-
+normalization, star schema, snowflake schema, flat file, dimension modelling, generalization, specialization, er diagram, cardinality
+
+
+data integrity - 
+
+primary key is used to make an element unique from the other elements
+
+logical integrity - 
+
+dba - database administrator
+it is responsible for the design and implementation of new dbs and constantly manage the dbs, 
+
+
+----------------------------------------
+
+sql - structured query language - non procedural in nature
+
+pl sql - procedural sql
+
+dql: data query lang - SELECT
+dml: data manipulation lang - DELETE,INSERT,UPDATE,MERGE
+ddl: data definition lan - DROP,TRUNCATE,CREATE,ALTER
+tcl: Transaction control lng - COMMIT,ROLLBACK,SAVEPOINT
+dcl: data control lang - REVOKE,GRANT
+
+datatypes
+no- int
+char - varchar
+date - date
+
+select * from employee where age between 20 and 23;
+
+select to_char(dob, 'DD-MM-YYYY')dob, rollno from employee;
+
+select * from employee where age in (20,21,23,26);
+
+select * from employee where age not in (20,21,23,26);
+
+having and where clause are similar. For grouping you use, having and for individual you use where.
+
+create student table - name, percentage, extra columns if needed - enter 5,6 data, perc - 80-90. group b y stdent and perc, use having clause > 85
+
+
+
+

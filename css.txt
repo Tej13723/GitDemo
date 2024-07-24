@@ -1,0 +1,22 @@
+CSS - Cascading style sheets.
+
+It is used to style a website/html pages.
+
+why css? styling can be done with html but if one is working on a big proj a simple task like setting a font colour will need to the font tag to be addressed on every line. Whereas in css, it can be done without repeting the tags
+
+types - inline, linked, embedded.
+
+inline - applying the style to a particular line.
+
+embedded - <style>
+              p { font-family: ariel, impact, sans sarif;color: red}
+           </style ------------- This is applied to where ever p is used.
+
+linked - using a single css for multiple files
+
+
+
+
+
+
+

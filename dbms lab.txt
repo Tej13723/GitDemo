@@ -1,0 +1,81 @@
+1.1
+
+create table Emp(
+  Empno int(4) not null,
+  Ename varchar(10),
+  job varchar(9),
+  mgr int(4),
+  Hiredate date,
+  Sal int(7,2),
+  Comm int(7,2),
+  Deptno int(2)
+  );
+  
+  --------------------------
+
+
+create table Department_Master(
+  Dept_Code int(2) not null,
+  Dept_name varchar(50)
+  );
+
+------------------------------
+
+
+create table Student_Master(
+  Student_Code int(6) not null,
+  Student_name varchar(50) not null,
+  Dept_Code int(2),
+  Student_dob date,
+  Student_Address varchar(240)
+  );
+
+--------------------------------
+
+
+create table Student_Marks(
+  Student_Code int(6),
+  Student_Year int not null,
+  Subject1 int(3),
+  Subject2 int(3),
+  Subject3 int(3)
+  );
+
+--------------------------------
+
+
+create table Staff_Master(
+  Staff_Code int(8) not null,
+  Staff_Name varchar(50) not null,
+  Design_code int,
+  Dept_code int,
+  Hiredate date,
+  Staff_dob date,
+  Staff_address varchar(240),
+  Mgr_code int(8),
+  Staff_sal int(10,2)
+  );
+
+-----------------------------------
+
+
+create table Book_Master(
+  Book_Code int(10) not null,
+  Book_Name varchar(50) not null,
+  Book_pub_year int,
+  Book_pub_author varchar(50)
+  );
+
+-----------------------------------
+
+
+create table Book_Transaction(
+  Book_Code int,
+  Student_Code int,
+  Staff_Code int,
+  Book_issue_date date not null,
+  Book_expected_return_date date not null,
+  Book_actual_return_date date
+ );
+
+----------------------------------------
